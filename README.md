@@ -38,7 +38,7 @@ O conjunto de textos trabalhado contém cerca de 170 temas, não há uniformidad
 
 
 ## pipeline
- ![Pipeline do projeto](pipeline_kedro_resumido.png)
+ ![Pipeline do projeto](image.png)
  
 
 
