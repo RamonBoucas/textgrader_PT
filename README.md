@@ -37,10 +37,9 @@ O conjunto de textos trabalhado contém cerca de 170 temas, não há uniformidad
 •	'Adequação e Leitura Crítica da Coletânea',                                                                                                
 
 
-
-
-
-
+## pipeline
+ ![Pipeline do projeto](pipeline_kedro_resumido.png)
+ 
 
 
 
