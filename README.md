@@ -8,13 +8,15 @@ Você pode rodar o projeto da seguinte forma:
 Após clonar o repositório, instale os requirements (recomentadamos a criaçao de um ambiente virtual 
 especifico no conda)
 
+```
 pip install -r requirements.txt
+```
 
 Após isso, para rodar o pipeline
 
 ```
 kedro run --pipeline textgrader
-``
+```
 
 ## para executar jupyter notebook
 Jupyter notebook (por algum motivo o jupyter notebook do kedro não está funcionando em nosso projeto)
