@@ -64,7 +64,7 @@ https://docs.kedro.org/en/stable/introduction/index.html
 
 ## visualizaçao do pipeline
  
- ![Alt text](image.png)
+ https://github.com/RamonBoucas/textgrader_PT/issues/1
 
 Aqui anexei uma imagem do pipeline, caso haja dificuldade em vê-la, essa imagem pode ser gerada 
 utilizando o comando kedro-viz (após termos instalado as dependencias listadas em requirements.txt)
