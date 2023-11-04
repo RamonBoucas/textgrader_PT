@@ -5,13 +5,20 @@
 
 Você pode rodar o projeto da seguinte forma:
 
-Após rodar o projeto 
+Após clonar o repositório, instale os requirements (recomentadamos a criaçao de um ambiente virtual 
+especifico no conda)
+
+pip install -r requirements.txt
+
+Após isso, para rodar o pipeline
 
 ```
 kedro run --pipeline textgrader
-```
+``
 
-  
+## para executar jupyter notebook
+Jupyter notebook (por algum motivo o jupyter notebook do kedro não está funcionando em nosso projeto)
+
 
 ## Conjuntos de texto
 
@@ -39,12 +46,39 @@ O conjunto de textos trabalhado contém cerca de 170 temas, não há uniformidad
 •	'Adequação e Leitura Crítica da Coletânea',                                                                                                
 
 
-## pipeline
+## tecnologias utilizadas
+
+Até o presente momento utilizamos 
+•	Kedro – Framework de engenharia de software voltado a dados desenvolvido pela quantum black (braço de dados da consultoria mckinsey company) 
+•	Pandas – biblioteca de manuseamento de dados
+•	NLTK – para geração das features básicas
+•	Sklearn para extração de features com tf-idf e computo dos resultados usando cohen_kappa
+•	Xgboost modelo usado para treino 
+
+O kedro em minha opinião me ajudou bastante a manter a organização do pipeline e ter um 
+‘runner’ de forma fácil. Ele possui alguns conceitos centrais como nó, catalogo e pipeline, que para ilustrar melhor recomendo a consulta ao tutorial presente no seguinte link 
+https://docs.kedro.org/en/stable/introduction/index.html
+
+
+## visualizaçao do pipeline
  
  ![Alt text](image.png)
 
+Aqui anexei uma imagem do pipeline, caso haja dificuldade em vê-la, essa imagem pode ser gerada 
+utilizando o comando kedro-viz (após termos instalado as dependencias listadas em requirements.txt)
 
+## lógica do projeto 
 
+consolidamos os diferentes JSONS com texto em 3 tabelas com os diferentes targets, 
+após isso extraimos features básicas (quantidade de palavras, palavras únicas e sentenças),
+na sequência, extraimos 1000 features usando TF-IDF, considerando um vocabulário formado pelas 3 tabelas.
+Finalmente executamos dois experimentos
+
+* treinar um modelo por tema e prever nesse tema
+* treinar um modelo unico para todos os temas e prever em todos os temas
+
+* os resultados já são gerados e podem ser consultados no caminho indicado pela entrada 
+final_scores_experiment do arquivo conf/base/catalog.yml
 
 
  
