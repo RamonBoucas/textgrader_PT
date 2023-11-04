@@ -63,6 +63,7 @@ https://docs.kedro.org/en/stable/introduction/index.html
 
 
 ## visualizaçao do pipeline
+Uma visualização do pipeline pode ser vista na Issue:
  
  https://github.com/RamonBoucas/textgrader_PT/issues/1
 
