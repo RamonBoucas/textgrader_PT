@@ -19,7 +19,10 @@ kedro run --pipeline textgrader
 ```
 
 ## para executar jupyter notebook
-Jupyter notebook (por algum motivo o jupyter notebook do kedro não está funcionando em nosso projeto)
+```
+Jupyter notebook 
+```
+(por algum motivo o jupyter notebook do kedro não está funcionando em nosso projeto)
 
 
 ## Conjuntos de texto
@@ -51,11 +54,11 @@ O conjunto de textos trabalhado contém cerca de 170 temas, não há uniformidad
 ## tecnologias utilizadas
 
 Até o presente momento utilizamos 
-•	Kedro – Framework de engenharia de software voltado a dados desenvolvido pela quantum black (braço de dados da consultoria mckinsey company) 
-•	Pandas – biblioteca de manuseamento de dados
-•	NLTK – para geração das features básicas
-•	Sklearn para extração de features com tf-idf e computo dos resultados usando cohen_kappa
-•	Xgboost modelo usado para treino 
+*	Kedro – Framework de engenharia de software voltado a dados desenvolvido pela quantum black (braço de dados da consultoria mckinsey company) 
+*	Pandas – biblioteca de manuseamento de dados
+*	NLTK – para geração das features básicas
+*	Sklearn para extração de features com tf-idf e computo dos resultados usando cohen_kappa
+*	Xgboost modelo usado para treino 
 
 O kedro em minha opinião me ajudou bastante a manter a organização do pipeline e ter um 
 ‘runner’ de forma fácil. Ele possui alguns conceitos centrais como nó, catalogo e pipeline, que para ilustrar melhor recomendo a consulta ao tutorial presente no seguinte link 
