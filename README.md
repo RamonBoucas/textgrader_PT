@@ -54,7 +54,7 @@ O conjunto de textos trabalhado contém cerca de 170 temas, não há uniformidad
 ## tecnologias utilizadas
 
 Até o presente momento utilizamos:
- 
+
 *	Kedro – Framework de engenharia de software voltado a dados desenvolvido pela quantum black (braço de dados da consultoria mckinsey company) 
 *	Pandas – biblioteca de manuseamento de dados
 *	NLTK – para geração das features básicas
@@ -66,13 +66,7 @@ O kedro em minha opinião me ajudou bastante a manter a organização do pipelin
 https://docs.kedro.org/en/stable/introduction/index.html
 
 
-## visualizaçao do pipeline
-Uma visualização do pipeline pode ser vista na Issue:
  
- https://github.com/RamonBoucas/textgrader_PT/issues/1
-
-Aqui anexei uma imagem do pipeline, caso haja dificuldade em vê-la, essa imagem pode ser gerada 
-utilizando o comando kedro-viz (após termos instalado as dependencias listadas em requirements.txt)
 
 ## lógica do projeto 
 
@@ -88,4 +82,15 @@ Finalmente executamos dois experimentos
 final_scores_experiment do arquivo conf/base/catalog.yml
 
 
+Um esquema do pipeline será disponibilizado na proxima seção e, além disso, 
+cada nó e cada função do código tem uma docstring com o que realiza e quais são seus argumentos,
+além disso, grande parte dos trechos de código dentro das funções estão comentados
+
  
+## visualizaçao do pipeline
+Uma visualização do pipeline pode ser vista na Issue:
+ 
+ https://github.com/RamonBoucas/textgrader_PT/issues/1
+
+Aqui anexei uma imagem do pipeline, caso haja dificuldade em vê-la, essa imagem pode ser gerada 
+utilizando o comando kedro-viz (após termos instalado as dependencias listadas em requirements.txt)
