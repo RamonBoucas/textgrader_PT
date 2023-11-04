@@ -18,11 +18,17 @@ kedro run --pipeline textgrader
 ```
 
 ## Para executar jupyter notebook
-```
-Jupyter notebook 
-```
-(por algum motivo o jupyter notebook do kedro não está funcionando em nosso projeto)
 
+para rodar o jupyter notebook com acesso a recursos adicionais do kedro
+```
+kedro jupyter notebook 
+```
+
+para rodar jupyter notebook comum 
+```
+jupyter notebook 
+```
+ 
 
 ## Conjuntos de texto
 
