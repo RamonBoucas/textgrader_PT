@@ -5,6 +5,8 @@
 
 Você pode rodar o projeto da seguinte forma:
 
+Após rodar o projeto 
+
 ```
 kedro run --pipeline textgrader
 ```
