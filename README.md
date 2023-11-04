@@ -1,6 +1,5 @@
-# textgrader
+# Textgrader
  
-
 ## Como rodar
 
 Você pode rodar o projeto da seguinte forma:
@@ -18,7 +17,7 @@ Após isso, para rodar o pipeline
 kedro run --pipeline textgrader
 ```
 
-## para executar jupyter notebook
+## Para executar jupyter notebook
 ```
 Jupyter notebook 
 ```
@@ -51,7 +50,7 @@ O conjunto de textos trabalhado contém cerca de 170 temas, não há uniformidad
 •	'Adequação e Leitura Crítica da Coletânea',                                                                                                
 
 
-## tecnologias utilizadas
+## Tecnologias utilizadas
 
 Até o presente momento utilizamos:
  
@@ -66,7 +65,7 @@ O kedro em minha opinião me ajudou bastante a manter a organização do pipelin
 https://docs.kedro.org/en/stable/introduction/index.html
 
 
-## visualizaçao do pipeline
+## Visualizaçao do pipeline
 Uma visualização do pipeline pode ser vista na Issue:
  
  https://github.com/RamonBoucas/textgrader_PT/issues/1
@@ -74,7 +73,7 @@ Uma visualização do pipeline pode ser vista na Issue:
 Aqui anexei uma imagem do pipeline, caso haja dificuldade em vê-la, essa imagem pode ser gerada 
 utilizando o comando kedro-viz (após termos instalado as dependencias listadas em requirements.txt)
 
-## lógica do projeto 
+## Lógica do projeto 
 
 consolidamos os diferentes JSONS com texto em 3 tabelas com os diferentes targets, 
 após isso extraimos features básicas (quantidade de palavras, palavras únicas e sentenças),
