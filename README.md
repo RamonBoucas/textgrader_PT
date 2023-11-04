@@ -53,7 +53,8 @@ O conjunto de textos trabalhado contém cerca de 170 temas, não há uniformidad
 
 ## tecnologias utilizadas
 
-Até o presente momento utilizamos 
+Até o presente momento utilizamos:
+ 
 *	Kedro – Framework de engenharia de software voltado a dados desenvolvido pela quantum black (braço de dados da consultoria mckinsey company) 
 *	Pandas – biblioteca de manuseamento de dados
 *	NLTK – para geração das features básicas
