@@ -1,9 +1,16 @@
 
 TARGETS_1 = ['Domínio da modalidade escrita formal_nota',                                                                                                  
- 'Compreender a proposta e aplicar conceitos das várias áreas de conhecimento para desenvolver o texto dissertativo-argumentativo em prosa_nota',   
  'Selecionar, relacionar, organizar e interpretar informações em defesa de um ponto de vista_nota',                                                 
+ 'Compreender a proposta e aplicar conceitos das várias áreas de conhecimento para desenvolver o texto dissertativo-argumentativo em prosa_nota',   
 'Conhecimento dos mecanismos linguísticos necessários para a construção da argumentação_nota',                                                     
 'Proposta de intervenção com respeito aos direitos humanos_nota']           
+
+TARGETS_1_RENAME = {'Domínio da modalidade escrita formal_nota':'c1',                                                                                                  
+ 'Compreender a proposta e aplicar conceitos das várias áreas de conhecimento para desenvolver o texto dissertativo-argumentativo em prosa_nota':'c2',   
+ 'Selecionar, relacionar, organizar e interpretar informações em defesa de um ponto de vista_nota':'c3',                                                 
+'Conhecimento dos mecanismos linguísticos necessários para a construção da argumentação_nota':'c4',                                                     
+'Proposta de intervenção com respeito aos direitos humanos_nota':'c5'}           
+
 
 
 TARGETS_3 = ['Conteúdo_nota',                                                                                                                               
